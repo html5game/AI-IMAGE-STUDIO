@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Privacy Policy for the AI Image Studio." />
+    <meta name="keywords" content="AI image generator, AI image editor, virtual try-on, image analysis, Gemini API, AI tool, creative tool" />
+    <title>Privacy Policy - AI Image Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @property --angle {
+        syntax: '<angle>';
+        inherits: false;
+        initial-value: 0deg;
+      }
+      @keyframes rotate {
+        to {
+          --angle: 360deg;
+        }
+      }
+      /* Simple prose styles to avoid needing a plugin */
+      .prose h2 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-top: 1.5em;
+        margin-bottom: 0.5em;
+      }
+      .prose p {
+        margin-bottom: 1em;
+        line-height: 1.6;
+      }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+    <div class="min-h-screen p-4">
+        <header class="text-center mb-6">
+            <a href="/index.html" class="inline-block">
+                <h1 class="text-4xl md:text-5xl font-bold bg-gradient-to-r from-[#56FF00] to-cyan-400 text-transparent bg-clip-text pb-2">
+                    AI Image Studio
+                </h1>
+            </a>
+            <p class="text-gray-400">Bring your visual ideas to life. Create, edit, and analyze images with the power of AI.</p>
+        </header>
+
+        <main
+            class="relative max-w-6xl mx-auto rounded-2xl p-[2px]"
+            style="
+                --angle: 0deg;
+                background: conic-gradient(from var(--angle), transparent 25%, #56ff00, transparent 40%);
+                animation: rotate 4s linear infinite;
+            "
+        >
+            <div class="bg-gray-800 rounded-[14px] p-6 sm:p-8 text-gray-300">
+                <a href="/index.html" class="mb-6 inline-block text-[#56FF00] hover:text-[#45cc00] transition-colors">&larr; Back to Studio</a>
+                <h1 class="text-3xl font-bold mb-4 text-[#56FF00]">Privacy Policy</h1>
+                <div class="space-y-4 prose max-w-none">
+                    <p><strong class="text-[#56FF00]">Last Updated: [Current Date]</strong></p>
+                    <p>This Privacy Policy describes how AI Image Studio ("we," "us," or "our") handles your information when you use our web application.</p>
+                    
+                    <h2>Information We Process</h2>
+                    <p>When you use our service, you may upload images and provide text prompts. This data is sent directly to the Google Gemini API for processing to fulfill your request (e.g., to generate an image, edit an image, or analyze an image). We do not store your uploaded images or prompts on our servers after the request is completed.</p>
+
+                    <h2>Data Storage</h2>
+                    <p>The application uses your browser's `localStorage` to save your generation/edit history for your convenience. This data is stored only on your device and is not transmitted to our servers. You can clear this history at any time within the application.</p>
+
+                    <h2>Third-Party Services</h2>
+                    <p>Our service relies on the Google Gemini API. Your interactions are subject to Google's Privacy Policy and Terms of Service. We are not responsible for the data practices of Google.</p>
+
+                    <h2>Changes to This Policy</h2>
+                    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+                </div>
+            </div>
+        </main>
+
+        <footer class="text-center mt-12 text-gray-500 text-sm">
+            <div class="space-x-4">
+                <a href="/about.html" class="hover:text-[#56FF00]">About</a>
+                <span>•</span>
+                <a href="/faq.html" class="hover:text-[#56FF00]">FAQ</a>
+                <span>•</span>
+                <a href="/privacy.html" class="hover:text-[#56FF00]">Privacy Policy</a>
+            </div>
+            <p class="mt-2">Powered by Google Gemini</p>
+        </footer>
+    </div>
+</body>
+</html>

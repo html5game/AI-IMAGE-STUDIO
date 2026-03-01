@@ -1,0 +1,5 @@
+{
+  "name": "ai.mazbron.net",
+  "description": "An AI-powered image tool. Users can generate new images from text, edit existing photos with prompts, or analyze an image to get a descriptive response.",
+  "requestFramePermissions": []
+}
